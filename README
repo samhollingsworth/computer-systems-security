@@ -1,12 +1,8 @@
 Overview:
-	Fuzzer.py is a tool to identify any possible vulnerabilities of a website and then uses fuzzing lists to throw a large 
-	amount of varied data in attempt to find situations in which the site does not handle incorrect inputs correctly.
+	Fuzzer.py is a tool to identify any possible vulnerabilities of a website and then uses fuzzing lists to throw a large amount of varied data in attempt to find situations in which the site does not handle incorrect inputs correctly.
 
 How it works:
-	Fuzzer.py works by first searching for input elements on the site, meaning it contains possible vulnerabilities. 
-	Then it uses the fuzzing lists provided by Daniel Miessler to post to the website, exposing any issues of the site. 
-	The program uses the Requests module of Python to access the site.
+	Fuzzer.py works by first searching for input elements on the site, meaning it contains possible vulnerabilities. Then it uses the fuzzing lists provided by Daniel Miessler to post to the website, exposing any issues of the site. The program uses the Requests module of Python to access the site.
 
 Correctly Implemented:
-	Fuzzer.py can take any site address and display if the site has possible vulnerabilities. 
-	Also, it sends data from fuzzing lists to identify any vulnerabilities.
+	Fuzzer.py can take any site address and display if the site has possible vulnerabilities. Also, it sends data from fuzzing lists to identify any vulnerabilities.
